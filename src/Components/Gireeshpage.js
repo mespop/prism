@@ -11,6 +11,7 @@ const Gireeshpage = () => {
    
     // Add more images as needed
   ];
+  
 
 
 

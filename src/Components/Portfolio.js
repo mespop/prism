@@ -14,6 +14,7 @@ const Portfolio = () => {
     const handleImageClick = (page) => {
         // Redirect to another page
         navigate(page);
+       <h1>my name is rishie</h1>
       };
     
   return (
