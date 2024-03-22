@@ -1,7 +1,3 @@
-
-import './App.css';
-
-
 import Contactus from './Components/Contactus';
 import Featured from './Components/Featured';
 import Ourstory from './Components/Ourstory';
@@ -16,26 +12,23 @@ import Chandanagarpage from './Components/Chandanagarpage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
-
-
-
-
+import prism from './assests/logo.jpg';
 
 
 
 function App() {
   return (
-    <div>
+    <div className='bg-black'>
 
     
     <BrowserRouter>
     <div>
-    <div className="App">
-      <img src="http://studioipsa.com/wp-content/uploads/2023/05/Frame-95.png" alt="prism" />
+    <div >
+      <img className=' border-t border-gray-900  mx-auto  ' src={prism} alt="prism" />
     </div>
-    <div>
-    <FaFacebookSquare size={30} style={{ marginRight: '10px' }} />
-    <FaInstagram size={30} />
+    <div className='space-x-4 mr-7 flex flex-row items-center justify-center my-9'>
+    <FaFacebookSquare className="text-white hover:text-white hover:underline hover:scale-125 transition-all duration-400 ease-in-out" size={30} style={{ marginRight: '10px' }} />
+    <FaInstagram className="text-white hover:text-white hover:underline hover:scale-125 transition-all duration-400 ease-in-out" size={30} />
     </div>
     <NavBar/>
     
