@@ -31,7 +31,7 @@ You will find customised assistance that will help create spaces that truly repr
     <p  className="text-center mt-5 text-white h-30" > Welcome to PRISM!</p>
     
     
-    <div className=' '>
+    <div className='flex flex-row mx-1 my-4 space-x-4    '>
     <div className="container relative w-1/3">
       <img className="  image block w-full h-full" src={gireesh} alt="gireesh client"   onClick={()=>handleImageClick("/gireeshpage")}  />
       <div className="overlay absolute top-0 bottom-0 left-0 right-0 h-full w-full opacity-0 transition-opacity duration-500 bg-white hover:opacity-100">
