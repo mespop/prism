@@ -16,7 +16,7 @@ const Picpage = () => {
     <div>
 
     <div>Picpagekannu</div>
-    <img src={k1} alt="kannu" />
+    <img src={k1} alt="kannu" draggable='false' />
     <img src={k2} alt="kannu" />
     <img src={k3} alt="kannu" />
     <img src={k4} alt="kannu" />

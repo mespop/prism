@@ -17,26 +17,26 @@ const Noname = () => {
     <div className='items-center justify-center '>
       
       <div className=' flex justify-center   container relative  space-x-2 space-y-2 '>
-    <img className='w-1/3 mx-0.2 mt-2 ' src={c1} alt="" />
-    <img className='w-1/3 mx-0.2' src={c2} alt="" />
-    <img className='w-1/3 mx-0.2' src={c3} alt="" />
+    <img className='w-1/3 mx-0.2 mt-2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c1} alt=""  draggable='false' />
+    <img className='w-1/3 mx-0.2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c2} alt="" />
+    <img className='w-1/3 mx-0.2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c3} alt="" />
 
       </div>
       <div className='flex justify-center   container relative  space-x-2 space-y-2'>
-    <img className='w-1/3 mx-0.2 mt-2' src={c7} alt="" />
-    <img className='w-1/3 mx-0.2' src={c8} alt="" />
-    <img className='w-1/3 mx-0.2' src={c9} alt="" />
+    <img className='w-1/3 mx-0.2 mt-2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c7} alt="" />
+    <img className='w-1/3 mx-0.2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c8} alt="" />
+    <img className='w-1/3 mx-0.2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c9} alt="" />
 
       </div>
       <div className='flex justify-center   container relative  space-x-2 space-y-2 '>
-    <img className='w-1/3 mx-0.2 mt-2 ' src={c4} alt="" />
-    <img className='w-1/3 mx-0.2' src={c5} alt="" />
-    <img className='w-1/3 mx-0.2' src={c6} alt="" />
+    <img className='w-1/3 mx-0.2 mt-2 object-cover transition-transform duration-300 transform hover:scale-105  ' src={c4} alt="" />
+    <img className='w-1/3 mx-0.2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c5} alt="" />
+    <img className='w-1/3 mx-0.2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c6} alt="" />
 
       </div>
       <div className='flex justify-center   container relative  space-x-2  space-y-2 '>
-    <img className='w-1/3 mx-0.2 mt-2' src={c10} alt="" />
-    <img className='w-1/3 mx-0.2' src={c11} alt="" />
+    <img className='w-1/3 mx-0.2 mt-2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c10} alt="" />
+    <img className='w-1/3 mx-0.2 object-cover transition-transform duration-300 transform hover:scale-105 ' src={c11} alt="" />
 
       </div>
       <footer className=" mt-2 text-center underline font-poppins text-xs leading-4 tracking-widest uppercase">

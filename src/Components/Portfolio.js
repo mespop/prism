@@ -15,22 +15,12 @@ const Portfolio = () => {
         // Redirect to another page
         console.log("Clicked on image");
         navigate(page);
-       
-      };
-    
-  return (
-
-  
-<div>
-
-    
-    
+       };
+    return (
+  <div>
     <p className="text-center  mx-auto max-w-3xl text-white">Hi. We are PRISM, formerly U and I Designs. Ipsa means ambition, and we are always driven with an ardent desire to keep learning and creating. We create spaces that are personal and allows you to express yourself.
-
 You will find customised assistance that will help create spaces that truly represent your personality</p>
     <p  className="text-center mt-5 text-white h-30" > Welcome to PRISM!</p>
-    
-    
     <div className='flex flex-row mx-1 my-4 space-x-4    '>
     <div className="container relative w-1/3">
       <img className="  image block w-full h-full" src={gireesh} alt="gireesh client"   onClick={()=>handleImageClick("/gireeshpage")}  />

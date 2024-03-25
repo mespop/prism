@@ -24,7 +24,7 @@ function App() {
     <BrowserRouter>
     <div>
     <div >
-      <img className=' border-t border-gray-900  mx-auto  ' src={prism} alt="prism" />
+      <img className=' border-t border-gray-900  mx-auto  transition-transform duration-300 transform hover:scale-105 ' src={prism} alt="prism" />
     </div>
     <div className='space-x-4 mr-7 flex flex-row items-center justify-center my-9'>
     <FaFacebookSquare className="text-white hover:text-white hover:underline hover:scale-125 transition-all duration-400 ease-in-out" size={30} style={{ marginRight: '10px' }} />
